@@ -73,6 +73,7 @@ data class SourceTestClass(
     override val name: String,
     override val intList: List<Int>,
     override val customType: CustomType,
+    val sourceOnlyField: String = "sourceOnlyField"
 ) : ITestClass
 
 data class DestTestClass(
